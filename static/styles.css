@@ -1,0 +1,63 @@
+.centered-title{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-left: -25px;
+  transform: translate(-50%, -50%);
+}
+body{
+
+  background-image: url("landing.png");
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.header{
+  position: relative;
+  margin-top: 50px;
+
+
+}
+.btn-success{
+/*  background-color: #4747BD !important;*/
+  background-color: #2A538E !important;
+
+}
+
+.fst{ margin-top: 50px;}
+.myImg{
+margin-top: 50px;
+  max-width: 500px;
+  max-height: 500px;
+
+  margin-bottom:15px;
+
+
+
+}
+.form-group{margin-bottom: 10px !important;}
+.cent{
+  margin: 0 auto;
+  margin-top:15%;
+  background-color: white;
+
+}
+
+.audio{
+  margin-top: 20px;
+}
+
+.audio button{
+  border-radius: 5px;
+}
+
+.btn-sm{
+  min-width: 50px !important;
+}
+
+.container{
+  min-width: 300px !important;
+}

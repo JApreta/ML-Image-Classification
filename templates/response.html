@@ -1,0 +1,26 @@
+
+<img src="/static/uploads/{{ filename }}" class="img-fluid img-thumbnail" width="300" height="300" />
+
+<div class="audio d-inline p-2 mt-3">
+  <audio id="EN" src="/static/uploads/{{ EN_Audio_name }}" preload="auto"></audio>
+  <button id="EN_text" type="button" class="btn btn-outline-primary btn-sm"
+  onclick="document.getElementById('EN').play();document.getElementById('textDescription').innerHTML='<p>{{EN_text}}</p>';">
+  <img  src="static/us.svg"/>
+  <i class="fas fa-play-circle"></i></button>
+
+
+
+  <audio id="CH" src="/static/uploads/{{ CH_Audio_name }}" preload="auto"></audio>
+  <button type="button" class="btn btn-outline-primary btn-sm" onclick="document.getElementById('CH').play();document.getElementById('textDescription').innerHTML='<p>{{CH_text}}</p>';">
+  <img  src="static/cn.svg"/>
+  <i class="fas fa-play-circle"></i></button>
+
+
+<audio id="ES" src="/static/uploads/{{ ES_Audio_name }}" preload="auto"></audio>
+<button type="button" class="btn btn-outline-primary btn-sm" onclick="document.getElementById('ES').play();document.getElementById('textDescription').innerHTML='<p>{{ES_text}}</p>';">
+<img  src="static/es.svg"/>
+<i class="fas fa-play-circle"></i></button>
+
+
+</div>
+<div id="textDescription"></div>
